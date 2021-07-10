@@ -1,0 +1,16 @@
+{
+  "name": "File Upload To MondoDB POC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload":"node scripts/upload.js",
+    "download":"node scripts/download.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.13.2"
+  }
+}

@@ -21,9 +21,9 @@ const getAUser = async () => {
       image: Buffer,
     });
 
-    const PresonModel = mongoose.model("user", userSchema);
+    const UserModel = mongoose.model("user", userSchema);
 
-    const response = await PresonModel.findOne();
+    const response = await UserModel.findOne();
 
     fs.writeFileSync(path.join("downloads", "image.jpeg"), response.image);
     process.exit(0);
